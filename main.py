@@ -20,7 +20,7 @@ class SimpleSquare(SampleBase):
         while True:
             for x in range(0, self.matrix.width):
                 offset_canvas.SetPixel(x, x, 255, 255, 255)
-                offset_canvas.SetPixel(offset_canvas.height - 1 - x, x, 255, 0,>
+                offset_canvas.SetPixel(offset_canvas.height - 1 - x, x, 255, 0,)
 
             for x in range(0, offset_canvas.width):
                 offset_canvas.SetPixel(x, 0, 255, 0, 0)
